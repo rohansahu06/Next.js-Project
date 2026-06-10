@@ -1,0 +1,197 @@
+body{
+    background-color: beige;
+}
+#heading{
+    margin-top: 20px;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.image1{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: beige;
+    cursor: pointer;
+   
+}
+#box1{
+    height: 300px;
+    flex: 1;
+    border-radius: 15px;
+    border: none;
+    background-color: aqua;
+    margin-right: 40px;
+    margin-left: 40px;
+    background-image: url("https://cdn.pixabay.com/photo/2023/02/20/05/28/rajasthani-culture-7801458_1280.jpg");
+    background-repeat: no-repeat;background-size: cover;   background-position: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2); overflow: hidden; position: relative; transition: transform 0.3s, box-shadow 0.3s;          
+}
+#box2{
+    flex: 1;
+    height: 300px;
+    width: 200px;
+    border-radius: 15px;
+    border: none;
+    background-color: aqua;
+    margin-right: 40px;
+    margin-left: 40px;
+    background-image: url("https://cultureandheritage.org/wp-content/uploads/2022/12/image-116.png");
+    background-repeat: no-repeat;background-size: cover;   background-position: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2); overflow: hidden; position: relative; transition: transform 0.3s, box-shadow 0.3s;  
+}
+.image2{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    background-color: beige;
+    cursor: pointer;
+   
+}
+#box3{
+    height: 300px;
+    flex: 1;
+    border-radius: 15px;
+    border: none;
+    background-color: aqua;
+    margin-right: 40px;
+    margin-left: 40px;
+    background-image: url("https://www.japjitravel.com/blog/wp-content/uploads/2024/04/Besan-Masala-Roti-Haryana.webp");
+    background-repeat: no-repeat;background-size: cover;   background-position: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2); overflow: hidden; position: relative; transition: transform 0.3s, box-shadow 0.3s;          
+}
+#box4{
+    flex: 1;
+    height: 300px;
+    width: 200px;
+    border-radius: 15px;
+    border: none;
+    background-color: aqua;
+    margin-right: 40px;
+    margin-left: 40px;
+    background-image: url("https://whiteroseresorts.com/blog/wp-content/uploads/2025/04/Cultural-Tourism-in-Haryana-3-1024x576.png");
+    background-repeat: no-repeat;background-size: cover;   background-position: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2); overflow: hidden; position: relative; transition: transform 0.3s, box-shadow 0.3s;  
+}
+#box5{
+    flex: 1;
+    height: 300px;
+    width: 200px;
+    border-radius: 15px;
+    border: none;
+    background-color: aqua;
+    margin-right: 40px;
+    margin-left: 40px;
+    background-image: url("https://1.bp.blogspot.com/-cKvwD-q4ZJM/UC0Vk02AYUI/AAAAAAAACZA/kdN7y4s4nUg/s1600/DSC_7236.JPG");
+    background-repeat: no-repeat;background-size: cover;   background-position: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2); overflow: hidden; position: relative; transition: transform 0.3s, box-shadow 0.3s;  
+}
+
+.image3{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    background-color: beige;
+    cursor: pointer;
+   
+}
+#box6{
+    height: 300px;
+    flex: 1;
+    border-radius: 15px;
+    border: none;
+    background-color: aqua;
+    margin-right: 40px;
+    margin-left: 40px;
+    background-image: url("https://thumbs.dreamstime.com/b/women-himachal-pradesh-performing-pahari-group-dance-naati-local-language-wearing-traditional-folk-dress-manali-india-th-259873530.jpg");
+    background-repeat: no-repeat;background-size: cover;   background-position: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2); overflow: hidden; position: relative; transition: transform 0.3s, box-shadow 0.3s;          
+}
+#box7{
+    flex: 1;
+    height: 300px;
+    width: 200px;
+    border-radius: 15px;
+    border: none;
+    background-color: aqua;
+    margin-right: 40px;
+    margin-left: 40px;
+    background-image: url("https://imgcdn.flamingotravels.co.in/Images/Country/Him%20-%20History%20and%20CultureResize1280%20x%20780.jpg");
+    background-repeat: no-repeat;background-size: cover;   background-position: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2); overflow: hidden; position: relative; transition: transform 0.3s, box-shadow 0.3s;  
+}
+#box8{
+    flex: 1;
+    height: 300px;
+    width: 200px;
+    border-radius: 15px;
+    border: none;
+    background-color: aqua;
+    margin-right: 40px;
+    margin-left: 40px;
+    background-image: url("https://www.tourmyindia.com/socialimg/folk-dance-and-music-himachal-pradesh.jpg");
+    background-repeat: no-repeat;background-size: cover;   background-position: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2); overflow: hidden; position: relative; transition: transform 0.3s, box-shadow 0.3s;  
+}
+
+.image4{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: beige;
+    margin-top: 40px;
+    cursor: pointer;
+   
+}
+#box9{
+    height: 300px;
+    flex: 1;
+    border-radius: 15px;
+    border: none;
+    background-color: aqua;
+    margin-right: 40px;
+    margin-left: 40px;
+    background-image: url("https://yearroundholidaysindia.com/wp-content/uploads/2024/04/madai_festival.jpg");
+    background-repeat: no-repeat;background-size: cover;   background-position: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2); overflow: hidden; position: relative; transition: transform 0.3s, box-shadow 0.3s;          
+}
+#box10{
+    flex: 1;
+    height: 300px;
+    width: 200px;
+    border-radius: 15px;
+    border: none;
+    background-color: aqua;
+    margin-right: 40px;
+    margin-left: 40px;
+    background-image: url("https://specialplacesofindia.com/wp-content/uploads/2023/08/Untitled-design-11-1-1140x660-1.jpg");
+    background-repeat: no-repeat;background-size: cover;   background-position: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2); overflow: hidden; position: relative; transition: transform 0.3s, box-shadow 0.3s;  
+}
+#box11{
+    flex: 1;
+    height: 300px;
+    width: 200px;
+    border-radius: 15px;
+    border: none;
+    background-color: aqua;
+    margin-right: 40px;
+    margin-left: 40px;
+    background-image: url("https://d3lzcn6mbbadaf.cloudfront.net/media/details/ANI-20260207091719.jpg");
+    background-repeat: no-repeat;background-size: cover;   background-position: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2); overflow: hidden; position: relative; transition: transform 0.3s, box-shadow 0.3s;  
+}
+

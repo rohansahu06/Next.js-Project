@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Navbaar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #2c3e50;
+  padding: 15px 30px;
+  color: white;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  flex-wrap: wrap;
+}
+
+/* Logo */
+.logo {
+  font-size: 22px;
+  font-weight: 700;
+  color: #ff7e5f;
+}
+
+/* Search bar (PC default: big and stylish) */
+.search {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+}
+
+.search input {
+  flex: 1;
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: 2px solid black;
+  outline: none;
+  font-size: 16px;
+  height: 35px;
+}
+
+.search input:focus {
+  border: 2px solid #f39c12;
+  box-shadow: 0 0 6px rgba(243,156,18,0.5);
+}
+
+.search i {
+  margin-left: -35px;
+  color: #888;
+  cursor: pointer;
+}
+
+/* Buttons */
+.Navbaar button {
+  margin: 5px;
+  border: none;
+  background: transparent;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.Navbaar button:hover {
+  color: #f39c12;
+  transform: scale(1.05);
+}
+
+/* Links inside buttons */
+.Navbaar a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* ---------------- RESPONSIVE DESIGN ---------------- */
+
+/* Tablet screens */
+@media (max-width: 992px) {
+  .Navbaar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .search {
+    max-width: 400px;   /* Tablet par thoda chhota */
+  }
+
+  .search input {
+    font-size: 14px;
+    height: 28px;
+    padding: 8px 10px;
+  }
+
+  .Navbaar button {
+    width: 100%;
+    text-align: left;
+  }
+}
+
+/* Mobile screens */
+@media (max-width: 600px) {
+  .Navbaar {
+    padding: 10px;
+  }
+
+  .logo {
+    font-size: 18px;
+  }
+
+  .search {
+    width: 100%;        /* Mobile par full width */
+    max-width: 100%;
+  }
+
+  .search input {
+    font-size: 12px;    /* Mobile par font chhota */
+    height: 24px;       /* Mobile par height kam */
+    padding: 6px 8px;
+  }
+
+  .search i {
+    margin-left: -25px; /* Icon adjust */
+    font-size: 12px;
+  }
+
+  .Navbaar button {
+    font-size: 14px;
+    padding: 8px;
+    width: 100%;
+    text-align: center;
+  }
+}
