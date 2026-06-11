@@ -50,7 +50,7 @@ export default function Artical() {
              <li>Pushkar Camel Fair (Nov): Livestock trading meets cultural extravaganza
             <br/>
             <br/>
-             <li>Teej (Jul-Aug): Celebrated by women with swing rituals and traditional songs</li> 
+             <li>Teej (Jul-Aug): Celebrated by women with swing rituals and traditional songs </li> 
              <br/>
              <li>Gangaur (Mar-Apr): Celebrating marital bliss and feminine devotion</li> 
             <br/>
