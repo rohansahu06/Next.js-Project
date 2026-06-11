@@ -51,16 +51,15 @@
 
 /* Description section */
 .desc {
-  flex: 0.8;                  /* thoda chhota description section */
+  flex: 0.8;                  
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 100%;
-  height: 20px;
   background: white;
   color: black;
   border-radius: 12px;
-  margin-top: 70px;
+  padding: 20px;
 }
 
 .desc h4 {
@@ -72,4 +71,52 @@
 .desc p {
   font-size: 16px;
   line-height: 1.6;
+}
+
+
+
+/* Tablet screens */
+@media (max-width: 992px) {
+  .card {
+    flex-direction: column;   /* stack vertically */
+    align-items: center;
+  }
+
+  .image-slider {
+    width: 100%;
+    height: 300px;            /* smaller height for tablet */
+  }
+
+  .desc {
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+  }
+}
+
+/* Mobile screens */
+@media (max-width: 600px) {
+  .card {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .image-slider {
+    width: 100%;
+    height: 220px;            
+  }
+
+  .desc {
+    padding: 12px;
+    font-size: 14px;
+  }
+
+  .desc h4 {
+    font-size: 18px;
+  }
+
+  .desc p {
+    font-size: 14px;
+    line-height: 1.4;
+  }
 }

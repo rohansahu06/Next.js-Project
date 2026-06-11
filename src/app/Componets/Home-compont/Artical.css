@@ -1,0 +1,14 @@
+.artical-container{
+    max-width: 90%;
+    margin: 50px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+
+}
+.artical-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
