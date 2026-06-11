@@ -27,7 +27,7 @@ export default function Footer_componets() {
         <div className="footer-section contact">
           <h3>Contact</h3>
           <p>Email: rohanvlogs@example.com</p>
-          <p>Phone: +91 98765 43210</p>
+          <p>Phone: +91 98765 43219</p>
         </div>
 
         {/* Social Media */}
