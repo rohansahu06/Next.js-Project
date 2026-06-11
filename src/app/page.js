@@ -1,10 +1,11 @@
 import Image from "next/image";
-
 import Product1 from "./Componets/Home-compont/Product1";
 import Product2 from "./Componets/Home-compont/Product2";
 import Product3 from "./Componets/Home-compont/Product3";
 import Product4 from "./Componets/Home-compont/Product4";
 import Artical from "./Componets/Home-compont/Artical";
+import Product5 from "./Componets/Home-compont/Product5";
+import Product6 from "./Componets/Home-compont/Product6";
 
 export default function Home() {
   return (
@@ -14,6 +15,8 @@ export default function Home() {
       <Product3/>
       <Product4/>
       <Artical/>
+      <Product5/>
+      <Product6/>
       
 
 

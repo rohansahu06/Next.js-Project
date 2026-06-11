@@ -3,6 +3,10 @@ import React from 'react'
 import "./contact.css"
 
 export default function Contact_page() {
+  function handleSubmit(e) {
+    e.preventDefault();
+    alert("Message sent successfully!");
+  }
   return (
     <div className="contact-container">
       <h2>Contact Us</h2>
@@ -32,7 +36,9 @@ export default function Contact_page() {
         <label>Message</label>
         <textarea rows="4" placeholder="Write your message..."></textarea>
 
-        <button type="submit">Send Message</button>
+        <button type="submit" onClick={handleSubmit}>
+          Send Message
+        </button>
       </form>
     </div>
   )
