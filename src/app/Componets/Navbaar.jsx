@@ -3,10 +3,15 @@ import React from 'react'
 import './Navbaar.css'
 import Link from "next/link"
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import Navbaar_logo from './logo.png';
+ 
+
 export default function Navbaar_componets() {
   return (
      <div className="Navbaar">
-    <div className='logo'>Logo</div>
+     <div className="logo">
+        <img src={Navbaar_logo} alt="logo" />
+      </div>
      <div className="search"><input type="text" placeholder="Find your favorite trip.. location" /> <i className="fa-solid fa-magnifying-glass"></i>
     </div>
 

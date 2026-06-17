@@ -35,7 +35,7 @@ export default function Footer_componets() {
           <h3>Follow Me</h3>
           <div className="social-icons">
             <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">🌐 YouTube</a>
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">📸 Instagram</a>
+            <a href="https://instagramlogin.com" target="_blank" rel="noopener noreferrer">📸 Instagram</a>
             <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">🐦 Twitter</a>
             <br/>
              <br/>
